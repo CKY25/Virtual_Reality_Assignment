@@ -1,0 +1,54 @@
+{
+    "name": "Custom Input Action",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "004cf7db-c836-4263-80cc-02b2ba9a2e40",
+            "actions": [
+                {
+                    "name": "Menu Pressed",
+                    "type": "Button",
+                    "id": "3658b29b-1c01-4d33-b47b-524d3e5e4444",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quest Popup",
+                    "type": "Button",
+                    "id": "cbe4b03b-e4c8-48fc-9be0-a8bc2d40d7c8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2cfe200c-8f29-4d76-bc5c-54cfde266c4f",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "054f2d1f-aaae-4230-a3b5-fcb241518ae3",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quest Popup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
